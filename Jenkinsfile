@@ -8,6 +8,7 @@ pipeline {
     environment {
         IMAGE_NAME = "nodejs-goof"
         TAG = "${BUILD_NUMBER}"
+        PATH = "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     }
 
     stages {
